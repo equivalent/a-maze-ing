@@ -16,6 +16,17 @@ Please treat this exercise as if you were writing a real business
 application.
 ```
 
+### Solution resources
+
+Solution is hosted at:
+
+* https://a-maze-ing.herokuapp.com/?height=10&width=10
+
+Solution source-code: 
+
+* https://github.com/equivalent/a-maze-ing
+* https://github.com/equivalent/maze_magic
+
 # My implementation process:
 
 ## Breaking down design thoughts
