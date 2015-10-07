@@ -6,25 +6,31 @@
   clear: both
 }
 
-.maze {
-  margin: 5em
-}
-
 .maze-magic {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
   float: left;
   height: 20px;
   width: 20px;
-  background-color: grey
+  background-color: grey;
+  border: solid grey 3px
 }
 
 .edge {
-  background-color: black
+  &:after {
+    content: '_'
+  }
 }
 
 .horizontal-wall {
-  background-color: black
+  &:after {
+    content: '_'
+  }
 }
 
 .vertical-wall {
-  background-color: black
+  &:after {
+    content: '|'
+  }
 }
+
