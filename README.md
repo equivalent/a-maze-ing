@@ -156,9 +156,17 @@ in this article as *Maze Representation Objects*
 ### 3. Render the maze in frontend
 
 We will decorate the Maze Representation Obects so that they render HTML
+`<div>` elements with classes representing walls/passages. This way we
+can replace the elments with css image-sprites / css walls...
 
-TODO
 
+### 4.
+
+...sorry no time left to finish it  ...TODO
+
+### 5.
+
+...sorry no time left to finish it  ...TODO
 
 ## Additional Sources of info:
 
