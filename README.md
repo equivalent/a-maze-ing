@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/equivalent/a-maze-ing.svg)](https://travis-ci.org/equivalent/a-maze-ing)
+
 # Maze App
 
 This repo is my solution for technical task asked for interview:
