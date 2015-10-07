@@ -1,0 +1,11 @@
+<h1>Here is your Maze !</h1>
+
+<div id="maze">
+  <% @maze.each_with_index do |row, index| %>
+    <div id="maze-row maze-row-<%= index %>">
+      <% row.each do |maze_rep| %>
+        <%= maze_rep.decorate.to_html  %>
+      <% end %>
+    </div>
+  <% end %>
+</div>
