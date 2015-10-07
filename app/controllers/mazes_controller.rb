@@ -10,10 +10,10 @@ class MazesController < ApplicationController
   private
 
   def height
-    params[:height] || 30
+    params[:height] || 10
   end
 
   def width
-    params[:width] || 50
+    params[:width] || 10
   end
 end
