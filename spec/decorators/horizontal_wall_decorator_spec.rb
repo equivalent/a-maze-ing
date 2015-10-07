@@ -1,13 +1,5 @@
 require 'rails_helper'
 
-class HorizontalWallDecorator < SimpleDelegator
-  include ActionView::Helpers::TextHelper
-
-  def to_html
-    content_tag :div, '', class: %w(maze-magic horizontal-wall)
-  end
-end
-
 RSpec.describe HorizontalWallDecorator, type: :view do
   let(:maze_rep_object) { MazeMagic::HorizontalWall.instance }
   subject { described_class.new(maze_rep_object) }
