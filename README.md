@@ -4,8 +4,6 @@
 
 This repo is my solution for technical task asked for interview:
 
-http://which-technical-exercise.herokuapp.com/exercises
-
 ```md
 Build a Rails application that generates and solves a Maze. You will be
 assessed primarily on your:
