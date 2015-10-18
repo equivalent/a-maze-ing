@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe EdgeDecorator, type: :view do
-  let(:maze_rep_object) { MazeMagic::Edge.instance }
+  let(:maze_rep_object) { MazeMagic::Maze::Edge.instance }
   subject { described_class.new(maze_rep_object) }
 
   it_behaves_like 'decoratable representation object'
