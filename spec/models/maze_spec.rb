@@ -11,14 +11,14 @@ RSpec.describe Maze do
     it "generates the maze grid" do
       expect(subject.grid).to match_array([
        [
-         MazeMagic::Edge.instance,
-         MazeMagic::HorizontalWall.instance,
-         MazeMagic::Edge.instance
+         MazeMagic::Maze::Edge.instance,
+         MazeMagic::Maze::HorizontalWall.instance,
+         MazeMagic::Maze::Edge.instance
        ],
        [
-         MazeMagic::VerticalWall.instance,
-         MazeMagic::HorizontalWall.instance,
-         MazeMagic::VerticalWall.instance
+         MazeMagic::Maze::VerticalWall.instance,
+         MazeMagic::Maze::HorizontalWall.instance,
+         MazeMagic::Maze::VerticalWall.instance
        ]
       ])
     end

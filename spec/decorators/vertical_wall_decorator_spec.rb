@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe VerticalWallDecorator, type: :view do
-  let(:maze_rep_object) { MazeMagic::VerticalWall.instance }
+  let(:maze_rep_object) { MazeMagic::Maze::VerticalWall.instance }
   subject { described_class.new(maze_rep_object) }
 
   it_behaves_like 'decoratable representation object'

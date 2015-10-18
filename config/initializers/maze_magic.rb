@@ -4,6 +4,12 @@ module MazeMagicDecorater
   end
 end
 
-[MazeMagic::Edge, MazeMagic::Passage, MazeMagic::HorizontalWall, MazeMagic::VerticalWall].each do |presentation_klass|
-  presentation_klass.include MazeMagicDecorater
-end
+[
+  MazeMagic::Maze::Edge,
+  MazeMagic::Maze::Passage,
+  MazeMagic::Maze::HorizontalWall,
+  MazeMagic::Maze::VerticalWall
+]
+  .each do |presentation_klass|
+    presentation_klass.include MazeMagicDecorater
+  end
